@@ -16,7 +16,7 @@ import re
 from datetime import datetime
 
 # 配置
-MOLTBOOK_API_KEY = "moltbook_sk_jQF9CfSCHTUm8TcEPvIFQ0P0Fbo6s8tU"
+MOLTBOOK_API_KEY = "${MOLTBOOK_API_KEY}"
 PRIVATE_KEY = "0x27e4239ea51f4abfe8ae0a8332bfbe89e8b870a20eb9304339d21cf7daf659fa"
 
 # 核心 JSON 模板（不能变）

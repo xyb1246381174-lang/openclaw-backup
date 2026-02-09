@@ -17,7 +17,7 @@ from datetime import datetime
 # 配置 - 从环境变量读取
 TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID', '')
 TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '')
-MOLTBOOK_API_KEY = os.environ.get('MOLTBOOK_API_KEY', 'moltbook_sk_jQF9CfSCHTUm8TcEPvIFQ0P0Fbo6s8tU')
+MOLTBOOK_API_KEY = os.environ.get('MOLTBOOK_API_KEY', '${MOLTBOOK_API_KEY}')
 
 # 核心 JSON 模板
 MINT_JSON_CORE = '{"p":"mbc-20","op":"mint","tick":"CLAW","amt":"100"}'
